@@ -3,11 +3,14 @@
 @section('content')
 
 <div class="container">
-          <ol class="breadcrumb bg-white m-t-2">
-            <li><a href="/">Ana səhifə</a> <i class="fa fa-angle-right" aria-hidden="true"></i></li>
-            <li>Səbətim</li>
-          </ol>
-          <hr>
+       
+           <ul class="nav navbar-nav">
+              <li><a href="\">Ana Səhifə</a></li>
+              <li><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
+              <li><a href="\addtocard">Səbətim</a></li>
+            </ul>
+          <hr class="col-md-12">
+          
           <div class="row">
           <div class="col-md-12">
           	<h2>Səbətim</h2>
@@ -114,7 +117,7 @@
           </div>
           <div class="row">
           <div class="col-md-4 col-md-offset-8">
-          	<button class="btn-success btn-md" type="submit" id="checkout" style="border: 1px solid lightgreen; border-radius: none; padding: 5px;">SİFARİŞ ET</button>
+          	<button onclick="contactWithYou();" class="btn-success btn-md" type="submit" id="checkout" style="border: 1px solid lightgreen; border-radius: none; padding: 5px;">SİFARİŞ ET</button>
           	</div>
           </div>
          
@@ -122,6 +125,10 @@
         </div>
      
 <script>
+							function contactWithYou(){
+								alert('Sifarişiniz qəbul olundu. Çox qısa bir müddətdə sizinlə əlaqə saxlanılacaq!');
+							}
+
  						    $(document).ready( function(){
 					   	        
 					   		$(".quantity").change(function () {

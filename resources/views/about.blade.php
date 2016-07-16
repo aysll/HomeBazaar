@@ -14,9 +14,9 @@
         <div class="row">
           <div class="navbar-contact">
             <ul class="nav navbar-nav">
-              <li><a href="index">home</a></li>
+              <li><a href="\">Home</a></li>
               <li><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
-              <li><a href="about">about us</a></li>
+              <li><a href="\about">Haqqımızda</a></li>
             </ul>
           </div>
       </div>

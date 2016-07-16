@@ -35,12 +35,12 @@
           <ul class="list-inline col-md-6 text-center">
             <li><a href="#">ENG</a></li>
             <li><a href="#">AZ</a></li>
-            <li><a href="wishlist">WISHLIST</a></li>
+            <li><a href="\wishlist">WISHLIST</a></li>
           </ul> 
         </div>
       
         <div class="logo">
-          <a href="#"><img src="/images/Home-bazaar-logo.png" style="width:200px;"></a>
+          <a href="\"><img src="/images/Home-bazaar-logo.png" style="width:200px;"></a>
         </div>
 
         <div class="row menu">
@@ -58,7 +58,7 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li><a href="/">HOME</a></li>
+                <li><a href="\">HOME</a></li>
                 @foreach(\App\Category::get() as $cateName)
                     <li><a href="\shopsidebar/{!! $cateName->id !!}">{!! $cateName->CategoryName !!}</a></li>
                 @endforeach
@@ -107,10 +107,10 @@
           <p><b>INFORMATION</b></p>
           <hr/>
           <ul>
-            <li><a href="about">Haqqımızda</a></li>
-            <li><a href="delivery">Ödəniş və Çatdırılma</a></li>
+            <li><a href="\about">Haqqımızda</a></li>
+            <li><a href="\delivery">Ödəniş və Çatdırılma</a></li>
             <li><a href="#">Hesabım</a></li>
-            <li><a href="shopsidebar">Məhsullarımız</a></li>
+            <li><a href="\shopsidebar">Məhsullarımız</a></li>
           </ul>
         </div>
         <!-- Information End -->
@@ -121,7 +121,7 @@
           <hr/>
           <h4>&copy;HomeBazaar. Site by<br> Tacirler. All Right Reserved 2016.</h4>
           <input type="email" class="form-control" id="subscribeText" placeholder="Your Email">
-          <button class="btn btn-group" type="submit" name="subscribeText">SEND US</button>
+          <button class="btn btn-group" type="submit" name="subscribeText" style="background:#80a05d;">SEND US</button>
         </div>
         <!-- Subscribe End -->
 

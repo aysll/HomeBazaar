@@ -20,9 +20,9 @@
         <div class="row">
           <div class="navbar-contact">
             <ul class="nav navbar-nav">
-              <li><a href="index">home</a></li>
+              <li><a href="\">Ana Səhifə</a></li>
               <li><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
-              <li><a href="#">shop sidebar</a></li>
+              <li><a href="\shopsidebarall">Məhsullar</a></li>
             </ul>
           </div>
       </div>
@@ -47,14 +47,14 @@
 
 
         <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-          <div class=" col-xs-11 col-sm-6 col-md-12 col-lg-12">
+          {{-- <div class=" col-xs-11 col-sm-6 col-md-12 col-lg-12">
             <div class="filter">
                 <h3 class="text-center">FILTER</h3>
                 <div id="double_number_range" data-min="25" data-max="2541" ></div>
                  <h5 class="pull-md-left pull-lg-left">PRICE: 12$-100$</h5>
                 <button type="button" class="btn btn-secondary">Filter</button>
             </div>
-          </div>
+          </div> --}}
         
           <div class=" col-xs-11 col-sm-6 col-md-12 col-lg-12">
               <div class="social">
@@ -95,7 +95,7 @@
                   </a>
                   <h6 class="text-center">{!! $categoryID->ProductName !!}</h6>
                   <p class="text-center">{!! $categoryID->UnitPrice !!}</p>
-                  <a href="shopsingle"><button type="button" class="btn btn-default btn-block btn-card">SİFARİŞ ET</button> </a>
+                  <a href="\shopsingle/{!! $categoryID->id !!}"><button type="button" class="btn btn-default btn-block btn-card">SİFARİŞ ET</button> </a>
                 </div>
               </div>
           @endforeach

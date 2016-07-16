@@ -7,9 +7,9 @@
     <div class="container">
       <div class="row">
         <div class="col-md-3 blogSnDirect">
-          <div class="col-md-4">home</div> 
+          <div class="col-md-4">Home</div> 
           <div class="col-md-2"><i class="fa fa-angle-right" aria-hidden="true"></i></div> 
-          <div class="col-md-6">blog</div>
+          <div class="col-md-6">Blog</div>
         </div>
       </div>
     </div>  

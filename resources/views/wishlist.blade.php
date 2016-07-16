@@ -9,26 +9,19 @@
      <div class="container-fluid">
       <div class="row text-center">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 green_contact">
-            <h1>WISHLIST</h1>
+            <h1>Seçilmişlər</h1>
           </div>
         </div>
       </div>
     <!-- green blog end -->
 
-   <div class="container">
-        <div class="row">
-          <div class="navbar-contact">
-            <ul class="nav navbar-nav">
-              <li><a href="index">home</a></li>
+    <div class="container">  
+     <ul class="nav navbar-nav">
+              <li><a href="\">Ana Səhifə</a></li>
               <li><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
-              <li><a href="#">wishlist</a></li>
+              <li><a href="\addtocard">Səbətim</a></li>
             </ul>
-          </div>
-      </div>
-    </div>
-
-    <div class="container">  <hr>
-     
+          <hr class="col-md-12">
         <div class="row">
           <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
             <div class="lil_arrival imgScale">
@@ -136,7 +129,5 @@
    
       </div>
 </section>
-
-
-   
+ 
 @stop

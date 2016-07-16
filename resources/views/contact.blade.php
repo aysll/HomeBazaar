@@ -4,22 +4,27 @@
 @section('content')
 
 <section id="contact">
-    <div class="container-fluid">
+    <div class="container-fluid" style="margin-bottom: 20px;">
       <div class="row text-center">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 green_contact">
-            <h1>CONTACT</h1>
-          </div>
+            <h1>ƏLAQƏ</h1>
         </div>
       </div>
+    </div>
+
       <div class="container">
+
         <div class="row">
-          <ol class="breadcrumb bg-white m-t-2">
-            <li><a href="/">Home</a> <i class="fa fa-angle-right" aria-hidden="true"></i></li>
-            <li>product</li>
-          </ol>
+          <div class="col-md-3 col-md-offset-1 col-xs-6 col-sm-12">
+            <ul class="nav navbar-nav" >
+              <li><a href="\" style="color: gray;">Ana Səhifə</a></li>
+              <li><a href="#" style="color: gray;"><i class="fa fa-chevron-right"  aria-hidden="true"></i></a></li>
+              <li><a href="\contact" style="color: gray;">Əlaqə</a></li>
+            </ul>
+          </div>
       </div>
-      <hr>
-      <div class="height"></div>
+
+      <hr style="margin: 10px 0;">
       <div class="row text-center contactPicture img-responsive">
           <div class="container contactInformation">
             <div class="row">

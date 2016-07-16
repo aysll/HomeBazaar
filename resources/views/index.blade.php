@@ -35,12 +35,12 @@
           <ul class="list-inline col-md-6 text-center">
             <li><a href="#">AZ</a></li>
             <li><a href="#">RUS</a></li>
-            <li><a href="wishlist">SEÇİLMİŞLƏR</a></li>
+            <li><a href="\wishlist">SEÇİLMİŞLƏR</a></li>
           </ul> 
         </div>
       
         <div class="logo">
-          <a href="#"><img src="images/Home-bazaar-logo.png"  style="width:200px;"></a>
+          <a href="\"><img src="images/Home-bazaar-logo.png"  style="width:200px;"></a>
         </div>
 
         <div class="row menu">
@@ -59,14 +59,14 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
               
-                <li><a href="index">ANA SƏHİFƏ</a></li>
+                <li><a href="\">ANA SƏHİFƏ</a></li>
                 @foreach(\App\Category::get() as $cateName)
                     <li><a href="\shopsidebar/{!! $cateName->id !!}">{!! $cateName->CategoryName !!}</a></li>
                 @endforeach
-                <li><a href="bloglist">BLOQUMUZ</a></li>
-                <li><a href="contact">ƏLAQƏ</a></li>
+                <li><a href="\bloglist">BLOQUMUZ</a></li>
+                <li><a href="\contact">ƏLAQƏ</a></li>
 
-                <li><a href="addtocard"><i class="fa fa-2x fa-cart-plus" aria-hidden="true"></i></a></li>
+                <li><a href="\addtocard"><i class="fa fa-2x fa-cart-plus" aria-hidden="true"></i></a></li>
                 <li><a href="#"><i class="fa fa-2x fa-search" aria-hidden="true"></i></a></li>
               
               </ul>
@@ -103,8 +103,7 @@
                 <div class="carousel-caption">
                   <h1>{!! $slider->slogan2 !!} </h1>
                   <p>GIVE YOUR FULL OF LOVE FOR THIS PLANET</p>
-                  <a href="" class="btn-L">MƏHSULLARA BAX</a>
-                  <a href="" class="btn-R"><span class="btn-Rspan">BÜTÜN MƏHSULLAR</span></a>
+                  <a href="\shopsidebarall" class="btn-R"><span class="btn-Rspan">BÜTÜN MƏHSULLAR</span></a>
                 </div>
               @endforeach
               </div>
@@ -136,7 +135,7 @@
 
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 m-b-2">
               <figure>
-                <a href="about" class="display-b color-2b2b2b">
+                <a href="\about" class="display-b color-2b2b2b">
                   <img style="height:250px;" src="images/aboutus.jpg" class="img-responsive" alt="">
 
                   <figcaption class="txt-upper m-t-2">Haqqımızda</figcaption>
@@ -146,7 +145,7 @@
 
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 m-b-2">
               <figure>
-                <a href="offers" class="display-b color-2b2b2b">
+                <a href="\offers" class="display-b color-2b2b2b">
                   <img style="height:250px;" src="images/discount.jpeg" class="img-responsive" alt="">
 
                   <figcaption class="txt-upper m-t-2">Xüsusi Endirimlər və təkliflər</figcaption>
@@ -156,7 +155,7 @@
 
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 m-b-2">
               <figure>
-                <a href="delivery" class="display-b color-2b2b2b">
+                <a href="\delivery" class="display-b color-2b2b2b">
                   <img style="height:250px;" src="images/DeliveryBox.jpg" class="img-responsive" alt="">
 
                   <figcaption class="txt-upper m-t-2">Ödəniş və Çatdırılma</figcaption>
@@ -192,7 +191,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 m-b-3">
                     
                           <div class="thumbnail no-margin no-radius">
-                            <a href="#" class="display-b">
+                            <a href="\shopsingle/{!! $product->id !!}" class="display-b">
                               <img src="../uploads/images/{!! $product->Picture  !!}" style="width: 100%; height: 200px;" alt="" />
                               <div class="caption" style="padding:0;">
                                 <h3 class="f-lato">{!! $product->ProductName !!}</h3>
@@ -218,7 +217,7 @@
 
                       <p class="f-lato">Hawker & Jonre PSD Template is an awesome design idea for your online shop. Creative. Modern. Elegant. Clean. Also it will be very easy to customize, enable you to either create a stunning layout of your own or just do some minor and some adjustments.</p>
 
-                      <a href="#" class="display-b color-3b3b3b headline headline-green f-lato">View more</a>
+                      <a href="\shopsidebarall" class="display-b color-3b3b3b headline headline-green f-lato">View more</a>
                     </div>
                   </div> <!-- end of .row  -->
                 </div> <!-- end of .col-lg-6 main second  -->
@@ -252,14 +251,14 @@
                 <h2 class="text-left">
                 MORE THAN <br> A GIFT.<br>IT'S  <span>LOVE</span>. 
                 </h2>
-                    <p><a class="text-left headline headline-green" href="#">VIEW MORE</a></p>
+                    <p><a class="text-left headline headline-green" href="\shopsidebarall">VIEW MORE</a></p>
               </div>
               </div>
             </div>
              @foreach($productBestSellerrow1 as $product)
                 <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
                   <div class="lil_arrival">
-                    <a href="#">
+                    <a href="\shopsingle/{!! $product->id !!}">
                       <img class="center-block img-responsive" style="height:200px;" src="../uploads/images/{!! $product->Picture  !!}">
                     </a>
                     <h6 class="text-center">{!! $product->ProductName !!}</h6>
@@ -273,7 +272,7 @@
           @foreach($productBestSellerrow2 as $product)
                 <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
                   <div class="lil_arrival">
-                    <a href="#">
+                    <a href="\shopsingle/{!! $product->id !!}">
                       <img class="center-block img-responsive" style="height:200px;" src="../uploads/images/{!! $product->Picture  !!}">
                     </a>
                     <h6 class="text-center">{!! $product->ProductName !!}</h6>
@@ -302,7 +301,7 @@
  <div class="container fluid">
             <div class="container">
                    <div class="row ourrow">
-                      <a href="bloglist"><h2 class="text-center">BLOQUMUZDAN</h2></a>
+                      <a href="\bloglist"><h2 class="text-center">BLOQUMUZDAN</h2></a>
                    </div>
 
     <div class="row rowcol">
@@ -403,7 +402,7 @@
 
     <div class="row ">
         <div class="col-md-1 col-md-offset-9">
-          <div class="natural"><b>HOME BAZAAR</b></div>
+          <div class="natural" style="background: #80a05d;""><b>HOME BAZAAR</b></div>
         </div>
     </div>
    </div> 
@@ -438,10 +437,10 @@
           <p><b>MƏLUMAT</b></p>
           <hr/>
           <ul>
-            <li><a href="about">Haqqımızda</a></li>
-            <li><a href="delivery">Ödəniş və Çatdırılma</a></li>
+            <li><a href="\about">Haqqımızda</a></li>
+            <li><a href="\delivery">Ödəniş və Çatdırılma</a></li>
             <li><a href="#">Hesabım</a></li>
-            <li><a href="shopsidebar">Məhsullarımız</a></li>
+            <li><a href="\shopsidebarall">Məhsullarımız</a></li>
           </ul>
         </div>
         <!-- Information End -->
@@ -450,9 +449,9 @@
         <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4 subscribe">
           <p><b>ABUNƏ OLUN</b></p>
           <hr/>
-          <h4>&copy;HomeBazaar. Site by<br> Tacirler. All Right Reserved 2016.</h4>
+          <h4>&copy;HomeBazaar. Site by<br> <b>Tacirler</b>. All Right Reserved 2016.</h4>
           <input type="email" class="form-control" id="subscribeText" placeholder="E-mailiniz">
-          <button class="btn btn-group" type="submit" name="subscribeText">GÖNDƏR</button>
+          <button class="btn btn-group" type="submit" name="subscribeText" style="background:#80a05d;">GÖNDƏR</button>
         </div>
         <!-- Subscribe End -->
 

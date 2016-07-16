@@ -141,8 +141,8 @@
                                                 <td> {!! $product->UnitPrice !!} </td>
                                                 <td> {!! $product->sizes !!} </td>
                                                 <td> {!! $product->Color !!} </td>
-                                                <td> <a href="editProduct/{!! $product->id !!}"> Edit</a></td>
-                                                <td> <a href="deleteProduct/{!! $product->id !!}"> Delete</a> </td>
+                                                <td> <a href="\editProduct/{!! $product->id !!}"> Edit</a></td>
+                                                <td> <a href="\deleteProduct/{!! $product->id !!}"> Delete</a> </td>
                                                 <td> <a href="#"> <i class="fa fa-info-circle fa-2x" aria-hidden="true"></i></a> </td>
 
                                             </tr>

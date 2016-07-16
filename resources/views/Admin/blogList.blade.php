@@ -138,8 +138,8 @@
 
                                                 <td> {!! $blog->adminName !!} </td>
                                                 
-                                                <td> <a href="editBlog/{!! $blog->id !!}"> Edit</a></td>
-                                                <td> <a href="deleteBlog/{!! $blog->id !!}"> Delete</a> </td>
+                                                <td> <a href="\editBlog/{!! $blog->id !!}"> Edit</a></td>
+                                                <td> <a href="\deleteBlog/{!! $blog->id !!}"> Delete</a> </td>
                                                 <td> <a href="#"> <i class="fa fa-info-circle fa-2x" aria-hidden="true"></i></a> </td>
 
                                             </tr>

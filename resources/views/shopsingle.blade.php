@@ -12,8 +12,8 @@
 
         <div class="container">
           <ol class="breadcrumb bg-white m-t-2">
-            <li><a href="/">Home</a> <i class="fa fa-angle-right" aria-hidden="true"></i></li>
-            <li>Shop Single</li>
+            <li><a href="\">Ana Səhifə</a> <i class="fa fa-angle-right" aria-hidden="true"></i></li>
+            <li>Məhsul Haqqında Məlumat</li>
           </ol>
         </div>
       </div>
@@ -60,7 +60,7 @@
 
             <p class="m-t-3 fs-15">{{ $product->ProductDescription }}</p>
 
-            <div class="m-t-3"><a href="\addtocard" class="f-lato btn-card btn no-radius color-2b2b2b side-padding-10p">Add to card</a></div>
+            <div class="m-t-3"><a href="\addtocard" class="f-lato btn-card btn no-radius color-2b2b2b side-padding-10p">Səbətə Əlavə Et</a></div>
 
             <div class="m-t-3">
               <span class="txt-upper fs-15 color display-ib btn-wishlist">
@@ -118,7 +118,7 @@
         <div class="row m-b-8 m-t-3">
           <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 m-b-3">
             <ul class="nav nav-stacked nav-tabs" role="tablist">
-              <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Description</a></li>
+              <li role="presentation" class="active"><a href="\" aria-controls="home" role="tab" data-toggle="tab">Description</a></li>
               
               
             </ul>

@@ -9,10 +9,14 @@
       <div class="row">
           <div class="iconspan">
               <div class="col-md-3 col-md-offset-1 col-xs-6 col-sm-12">
-             
-                    <span><a href="index">home</a></span>
-                    <span class="glyphicon glyphicon-chevron-right icon"></span>
-                    <span><a href="#">blog</a></span>
+
+                    <ul class="nav navbar-nav" style="color: gray;">
+                      <li><a href="\" style="color: gray;">Ana Səhifə</a></li>
+                      <li><a href="#" style="color: gray;"><i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
+                      <li><a href="\bloglist" style="color: gray;">Blogumuz</a></li>
+                    </ul>
+                    
+                  <hr class="col-md-12">
 
               </div>
                 
@@ -36,7 +40,7 @@
             <div class="blogmarginpictures">
               <div class="col-md-5 col-md-offset-1 col-xs-12 col-sm-12">
                 <div class="blogpic">
-                 {{--  <a href="blogsingle/{{$blog->id}}"> --}}
+                 {{--  <a href="\blogsingle/{{$blog->id}}"> --}}
                     <img class="img-responsive" src="../uploads/images/{{ $blog->picture }}">
                   {{-- </a> --}}
                 </div>
@@ -55,7 +59,7 @@
                               <h4>{{$blog->title}}</h4>
                          
                               <p style="height: 160px; overflow:hidden;">{{$blog->content}}</p>
-                              <a href="blogsingle/{{$blog->id}}">Read more...</a>
+                              <a href="\blogsingle/{{$blog->id}}">Read more...</a>
                           </div>
                           </div>
                         </div>

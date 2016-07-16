@@ -57,7 +57,7 @@ License: You must have a valid license purchased only from themeforest(the above
             <div class="page-header-inner ">
                 <!-- BEGIN LOGO -->
                 <div class="page-logo">
-                    <a href="index1.html">
+                    <a href="\">
                        <img src="/assets/layouts/layout4/img/Home-bazaar-logo.png" alt="logo" class="logo-default" style="margin: 0px;width: 190px;height: 100px;" /> </a>
                     <div class="menu-toggler sidebar-toggler">
                         <!-- DOC: Remove the above "hide" to enable the sidebar toggler button on header -->
@@ -100,7 +100,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <li class="external">
                                         <h3>
                                             <span class="bold">12 pending</span> notifications</h3>
-                                        <a href="page_user_profile_1.html">view all</a>
+                                        <a href="#">view all</a>
                                     </li>
                                     <li>
                                         <ul class="dropdown-menu-list scroller" style="height: 250px;" data-handle-color="#637283">
@@ -202,7 +202,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <li class="external">
                                         <h3>You have
                                             <span class="bold">7 New</span> Messages</h3>
-                                        <a href="app_inbox.html">view all</a>
+                                        <a href="#">view all</a>
                                     </li>
                                     <li>
                                         <ul class="dropdown-menu-list scroller" style="height: 275px;" data-handle-color="#637283">
@@ -382,37 +382,37 @@ License: You must have a valid license purchased only from themeforest(the above
                             <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
                             <li class="dropdown dropdown-user dropdown-dark">
                                 <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-                                    <span class="username username-hide-on-mobile"> Profile Name</span>
+                                     <span class="username username-hide-on-mobile"> Arzu </span>
                                     <!-- DOC: Do not remove below empty space(&nbsp;) as its purposely used -->
-                                    <img alt="" class="img-circle" src="../assets/layouts/layout4/img/avatar9.jpg" /> </a>
+                                    <img alt="" class="img-circle" src="../images/IMG_20160524_130824_427081888.jpg" /> </a>
                                 <ul class="dropdown-menu dropdown-menu-default">
                                     <li>
-                                        <a href="page_user_profile_1.html">
+                                        <a href="#">
                                             <i class="icon-user"></i> My Profile </a>
                                     </li>
                                     <li>
-                                        <a href="app_calendar.html">
+                                        <a href="#">
                                             <i class="icon-calendar"></i> My Calendar </a>
                                     </li>
                                     <li>
-                                        <a href="app_inbox.html">
+                                        <a href="#">
                                             <i class="icon-envelope-open"></i> My Inbox
                                             <span class="badge badge-danger"> 3 </span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="app_todo_2.html">
+                                        <a href="#">
                                             <i class="icon-rocket"></i> My Tasks
                                             <span class="badge badge-success"> 7 </span>
                                         </a>
                                     </li>
                                     <li class="divider"> </li>
                                     <li>
-                                        <a href="page_user_lock_1.html">
+                                        <a href="#">
                                             <i class="icon-lock"></i> Lock Screen </a>
                                     </li>
                                     <li>
-                                        <a href="page_user_login_1.html">
+                                        <a href="#">
                                             <i class="icon-key"></i> Log Out </a>
                                     </li>
                                 </ul>
@@ -458,18 +458,13 @@ License: You must have a valid license purchased only from themeforest(the above
                      <ul class="page-sidebar-menu" data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="500">
                         <li class="nav-item start active open">
                             <a href="javascript:;" class="nav-link nav-toggle">
-                                <a href="Admin">
+                                <a href="\Admin">
                                     <i class="icon-home"></i>
                                     <span class="title">Dashboard</span>
                                 </a>
                                 <span class="selected"></span>
-
                             </a>
-
                         </li>
-
-
-
 
                        <li class="nav-item  ">
                             <a href="javascript:;" class="nav-link nav-toggle">
@@ -479,12 +474,12 @@ License: You must have a valid license purchased only from themeforest(the above
                             </a>
                             <ul class="sub-menu">
                                 <li class="nav-item  ">
-                                    <a href="categoryList" class="nav-link ">
+                                    <a href="\categoryList" class="nav-link ">
                                         <span class="title">Category List</span>
                                     </a>
                                 </li>
                                 <li class="nav-item  ">
-                                    <a href="addCategory" class="nav-link ">
+                                    <a href="\addCategory" class="nav-link ">
                                         <span class="title">New Category</span>
                                     </a>
                                 </li>
@@ -498,12 +493,12 @@ License: You must have a valid license purchased only from themeforest(the above
                             </a>
                             <ul class="sub-menu">
                                 <li class="nav-item  ">
-                                    <a href="productList" class="nav-link ">
+                                    <a href="\productList" class="nav-link ">
                                         <span class="title">Product list</span>
                                     </a>
                                 </li>
                                 <li class="nav-item  ">
-                                    <a href="addProduct" class="nav-link ">
+                                    <a href="\addProduct" class="nav-link ">
                                         <span class="title">New Product</span>
                                     </a>
                                 </li>
@@ -518,7 +513,7 @@ License: You must have a valid license purchased only from themeforest(the above
                             </a>
                             <ul class="sub-menu">
                                 <li class="nav-item  ">
-                                    <a href="orders" class="nav-link ">
+                                    <a href="\orders" class="nav-link ">
                                         <span class="title">orders</span>
                                     </a>
                                 </li>
@@ -532,12 +527,12 @@ License: You must have a valid license purchased only from themeforest(the above
                             </a>
                             <ul class="sub-menu">
                                 <li class="nav-item  ">
-                                    <a href="blogList" class="nav-link ">
+                                    <a href="\blogList" class="nav-link ">
                                         <span class="title">Blog List</span>
                                     </a>
                                 </li>
                                 <li class="nav-item  ">
-                                    <a href="addBlog" class="nav-link ">
+                                    <a href="\addBlog" class="nav-link ">
                                         <span class="title">New Blog</span>
                                     </a>
                                 </li>
@@ -551,12 +546,12 @@ License: You must have a valid license purchased only from themeforest(the above
                             </a>
                             <ul class="sub-menu">
                                 <li class="nav-item">
-                                    <a href="sliderlist" class="nav-link ">
+                                    <a href="\sliderlist" class="nav-link ">
                                         <span class="title">Slider List</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="addSliderImage" class="nav-link ">
+                                    <a href="\addSliderImage" class="nav-link ">
                                         <span class="title">New Slider</span>
                                     </a>
                                 </li>
