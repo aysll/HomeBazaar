@@ -140,16 +140,16 @@
             <textarea style="height:80px;" name="title" id="" cols="30" rows="10" class="form-control"></textarea>
           </div>
       </div>
-     {{--     <div class="form-group">
+         <div class="form-group">
           <label for="inputEmail3" class="col-sm-3 control-label">Content</label>
           <div class="col-sm-9">
             <textarea style="height:80px;" name="content" id="" cols="30" rows="10" class="form-control"></textarea>
           </div>
-      </div> --}}
+      </div>
 
 
 
-       <div class="form-group">
+      {{--  <div class="form-group">
        <label for="inputEmail3" class="col-sm-3 control-label">Content</label>
          
         
@@ -157,9 +157,9 @@
             <div name="summernote" id="summernote_1"> </div>
          </div>
      </div>
+ --}}
 
-
-      <div class="form-group">
+<div class="form-group">
     <label for="inputEmail3" class="col-sm-3 control-label">Admin Name</label>
     <div class="col-sm-9">
       <input  class="form-control" id="" name="adminName" >
