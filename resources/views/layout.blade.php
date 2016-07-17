@@ -88,10 +88,10 @@
 
         <!-- About us Start -->
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 aboutUs">
-          <p><b>ABOUT US</b></p>
+           <p><b>HAQQIMIZDA</b></p>
           <hr/>
          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <img src="/images/home-bazaar-logo-white.png" alt="no image">
+            <img src="images/home-bazaar-logo-white.png" alt="no image">
          </div>
           <h4>HomeBazaar - I appreciate all the positive feedback. It means a lot</h4>
           <ul>
@@ -104,24 +104,24 @@
 
         <!-- Information Start -->
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 information">
-          <p><b>INFORMATION</b></p>
+          <p><b>MƏLUMAT</b></p>
           <hr/>
           <ul>
             <li><a href="\about">Haqqımızda</a></li>
             <li><a href="\delivery">Ödəniş və Çatdırılma</a></li>
             <li><a href="#">Hesabım</a></li>
-            <li><a href="\shopsidebar">Məhsullarımız</a></li>
+            <li><a href="\shopsidebarall">Məhsullarımız</a></li>
           </ul>
         </div>
         <!-- Information End -->
 
         <!-- Subscribe Start -->
-        <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4 subscribe">
-          <p><b>SUBSCRIBE</b></p>
+         <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4 subscribe">
+          <p><b>ABUNƏ OLUN</b></p>
           <hr/>
-          <h4>&copy;HomeBazaar. Site by<br> Tacirler. All Right Reserved 2016.</h4>
-          <input type="email" class="form-control" id="subscribeText" placeholder="Your Email">
-          <button class="btn btn-group" type="submit" name="subscribeText" style="background:#80a05d;">SEND US</button>
+          <h4>&copy;HomeBazaar. Site by<br> <b>Tacirler</b>. All Right Reserved 2016.</h4>
+          <input type="email" class="form-control" id="subscribeText" placeholder="E-mailiniz">
+          <button class="btn btn-group" type="submit" name="subscribeText" style="background:#80a05d;">GÖNDƏR</button>
         </div>
         <!-- Subscribe End -->
 

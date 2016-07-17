@@ -304,7 +304,7 @@
                       <a href="\bloglist"><h2 class="text-center">BLOQUMUZDAN</h2></a>
                    </div>
 
-    <div class="row rowcol">
+    <div class="row rowcol" style="margin-bottom: 50px;">
 
     @foreach($getBlogByIdIndex as $blog)
         <div class="col-md-5 col-md-offset-1"> 
@@ -316,20 +316,63 @@
                <div class="row rownewsleft">
                    <a href="\blogsingle/{{$blog->id}}">
                           <div class="col-md-3">
-                              <div id="datedayleft"><b>12</b>
-                                <div id="datemonthleft"><b>MART</b></div>
+                              <div id="datedayleft"><b>{!! $blog->created_at->format('d')!!}</b>
+                                <div id="datemonthleft"><b>
+
+                                    @if($blog->created_at->format('m')==1)
+                                      YANVAR
+                                    @endif
+                                    @if($blog->created_at->format('m')==2)
+                                      FEVRAL
+                                    @endif
+                                    @if($blog->created_at->format('m')==3)
+                                      MART
+                                    @endif
+                                    @if($blog->created_at->format('m')==4)
+                                      APREL
+                                    @endif
+                                    @if($blog->created_at->format('m')==5)
+                                      MAY
+                                    @endif
+                                    @if($blog->created_at->format('m')==6)
+                                      IYUN
+                                    @endif
+                                    @if($blog->created_at->format('m')==7)
+                                     IYUL
+                                    @endif
+                                    @if($blog->created_at->format('m')==8)
+                                      AVQUST
+                                    @endif
+                                    @if($blog->created_at->format('m')==9)
+                                      SENTYABR
+                                    @endif
+                                    @if($blog->created_at->format('m')==10)
+                                      OKTYABR
+                                    @endif
+                                    @if($blog->created_at->format('m')==11)
+                                      NOYABR
+                                    @endif
+                                    @if($blog->created_at->format('m')==12)
+                                      DEKABR
+                                    @endif
+
+                                   
+                                  </b></div>
                               </div>
                           </div>
                           <div class="col-md-9">
                               <div class="hhp">
                                     <h4>{{$blog->title}}</h4>
-                                    <p>{{$blog->content}}</p>
+                                    <p style="height: 200px; overflow:scroll;">{{$blog->content}}</p>
                               </div>
                           </div>
                       </a>
                 </div>
           </div>
       @endforeach
+
+
+
 
     </div>
     </div>
